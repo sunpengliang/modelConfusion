@@ -8,7 +8,7 @@ data_folder_path = os.path.join(root_path, 'merge_file')
 
 print(data_folder_path)
 
-##加载txt模型
+##load the txt_file
 def load_txtfile(data_folder_path):
     sorted(os.listdir(data_folder_path))
     output_path = os.path.join(root_path, 'result')
@@ -74,7 +74,7 @@ def get_max_frame(file_path):
     with open(file_path, 'r') as f:
         lines = f.readlines()  # 读取所有行
         #first_line = lines[0]  # 取第一行
-        last_line = lines[-1]  # 取最后一行 print '文件' + fname + '第一行为：' + first_line print '文件' + fname + '最后一行为：'+ last_line
+        last_line = lines[-1]  # 取最后一行
         max_frame = last_line.split(' ')[0]
     return max_frame
 
