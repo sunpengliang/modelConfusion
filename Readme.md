@@ -2,7 +2,7 @@
 
 - load_txt.py ：load输入文件和输出
 - merge_file.py: 不同模型的文件进行结果组合
-- wfn.py: weight fusion的实现
+- wln.py: weight fusion的实现
 - sort.sh : linux下对模型结果组合后按照frame排序
 
 
