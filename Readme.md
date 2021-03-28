@@ -4,6 +4,7 @@
 - merge_file.py: 不同模型的文件进行结果组合
 - wln.py: weight fusion的实现
 - sort.sh : linux下对模型结果组合后按照frame排序
+- senet/hgwisenet.py：hgwisenet网络
 
 
 
