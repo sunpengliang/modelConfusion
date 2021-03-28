@@ -1,7 +1,7 @@
 import os
 import numpy as np
 
-from wfn import weighted
+from wln import weighted
 
 root_path = os.getcwd()
 data_folder_path = os.path.join(root_path, 'merge_file')
