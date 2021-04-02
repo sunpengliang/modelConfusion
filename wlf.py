@@ -80,7 +80,7 @@ def weightedmodel(box_car, box_car_new, index, class_name,  kappa=3/100):
             up_xnew = np.sum(up_result_x) / np.sum(conf)
             up_ynew = np.sum(up_result_y) / np.sum(conf)
             r_final, thea_final = calculate_thea(up_xnew, up_ynew)
-            box_car_new[index] = [r_final,thea_final,np.sum(conf)/len(total_box) * min(len(total_box), 3) / 3, class_name]
+            box_car_new[index] = [r_final,thea_final,np.sum(conf)/len(total_box) * min(len(total_box), 4) / 4, class_name]
         else:
             if index == 0:
                 flag = True
