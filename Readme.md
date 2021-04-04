@@ -1,16 +1,16 @@
 **Program files:**
 
-- load_txt.py ：load输入文件和输出
-- merge_file.py: 不同模型的文件进行结果组合
-- wln.py: weight fusion的实现
-- sort.sh : linux下对模型结果组合后按照frame排序
-- senet/hgwisenet.py：hgwisenet网络
+- load_txt.py: Load the file from the origin_file folder and output the file in result folder
+- merge_file.py: Merge the different models' result
+- wlf.py: The realization of weight location fusion method.
+- sort.sh : Sort the txt files by frame from merge_file folder
+- senet/hgwisenet.py：The Network structure of hgwisenet
 
 
 
 **File folder sturcture:**
 
-- origin_file：保存不同模型的结果的文件夹
-- merge_file:融合后并排序，每次运行load_txt.py后会清空
-- reuslt: 保存模型融合后的文件
+- origin_file：The original files folder, subfolders are different models result.保存不同模型的结果的文件夹 
+- merge_file: Merge and sort the file from the origin_file folder 
+- reuslt: The folder which saves the result files
 
