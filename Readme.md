@@ -1,3 +1,4 @@
+# README #
 **Program files:**
 
 - load_txt.py: Load the file from the origin_file folder and output the file in result folder.
@@ -7,10 +8,23 @@
 - senet/hgwisenet.py：The Network structure of hgwisenet.
 
 
-
 **File folder sturcture:**
 
 - origin_file：The original files folder, subfolders are different models result.
 - merge_file: Merge and sort the file from the origin_file folder.
 - reuslt: The folder which saves the result files.
 
+# Citation
+ICMR '21: Proceedings of the 2021 International Conference on Multimedia RetrievalAugust 2021 Pages 545–552https://doi.org/10.1145/3460426.3463654
+```bibtex
+@inproceedings{sun2021squeeze,
+  title={Squeeze-and-Excitation network-Based Radar Object Detection With Weighted Location Fusion},
+  author={Sun, Pengliang and Niu, Xuetong and Sun, Pengfei and Xu, Kele},
+  booktitle={Proceedings of the 2021 International Conference on Multimedia Retrieval},
+  pages={545--552},
+  year={2021}
+}
+```
+
+## What is this repository for? ##
+To solve the problem of confusion of different models.
