@@ -15,7 +15,8 @@
 - reuslt: The folder which saves the result files.
 
 # Citation
-ICMR '21: Proceedings of the 2021 International Conference on Multimedia RetrievalAugust 2021 Pages 545–552https://doi.org/10.1145/3460426.3463654
+This is the official codes of the following paper.
+https://doi.org/10.1145/3460426.3463654
 ```bibtex
 @inproceedings{sun2021squeeze,
   title={Squeeze-and-Excitation network-Based Radar Object Detection With Weighted Location Fusion},
@@ -27,4 +28,5 @@ ICMR '21: Proceedings of the 2021 International Conference on Multimedia Retriev
 ```
 
 ## What is this repository for? ##
-To solve the problem of confusion of different models.
+Ensemble of the models.
+SEnet-based rader detection model.
