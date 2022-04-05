@@ -29,4 +29,4 @@ https://doi.org/10.1145/3460426.3463654
 
 ## What is this repository for? ##
 Ensemble of the models.
-SEnet-based rader detection model.
+SeNet-based rader detection model.
